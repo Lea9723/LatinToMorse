@@ -23,12 +23,20 @@
             et des continents.</h2>
         </article>
         <section class="section">
-            <label for="input1">Latin :</label>
-            <input id="input1"type="text" name="latin" placeholder="Entrez le texte à traduire">
-        <button id="translate">Translate</button>
-        <label for="input2">Morse :</label>
+             <input id="input1"type="text" name="latin" placeholder="Entrez le texte à traduire">
+             
+            <select name="choice" id="selectOption1">
+                <option value="" disabled selected>Language</option>
+                <option value="morse" >to Morse</option>
+                <option value="latin">to Latin</option>
+            </select>
+        <button id="translate">=</button>
         <input id="input2"type="text" name="morse" readonly>
-   </section>
+        <!-- <select name="choice" id="selectOption2"> -->
+            <!-- <option value="morse">Morse</option> -->
+            <!-- <option value="latin">Latin</option> -->
+        </select>
+   </section> 
     <script src="latinToMorse.js"></script>
 </body>
 </html>
