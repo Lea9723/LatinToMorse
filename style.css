@@ -24,7 +24,7 @@ h1 {
 h2 {
     color: rgb(53, 73, 90);
     text-shadow: 1px 2px 4px hsl(32, 62%, 52%);
-    font-size: 2rem; /* Utilisation d'unités réactives */
+    font-size: 2rem; 
     border-radius: 10px;
     box-shadow: inset 6px 6px 9px #fde1c7;
     padding: 8%;
@@ -38,7 +38,7 @@ button {
     box-shadow: 3px 3px 5px rgb(4, 59, 21);
     width: 100px;
     height: 70px;
-    font-size: 1.8rem; /* Utilisation d'unités réactives */
+    font-size: 1.8rem;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgba(184, 86, 62, 0.938);
@@ -66,7 +66,7 @@ input {
     justify-content: center;
     margin: 60px 0;
     padding: 10px;
-    font-size: 2.5rem; /* Utilisation d'unités réactives */
+    font-size: 2.5rem; 
     text-align: center;
     border-radius: 15px;
     width: 100%; /* Utilisation d'une largeur réactive */
@@ -101,7 +101,7 @@ a {
     justify-content: center;
     margin: 60px 3px;
     padding: 10px;
-    font-size: 1.5rem; /* Utilisation d'unités réactives */
+    font-size: 1.5rem; 
     text-align: center;
     border-radius: 15px;
     width: 150px;
